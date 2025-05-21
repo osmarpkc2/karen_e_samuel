@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feliz Dia dos Namorados 💖</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Feliz Dia dos Namorados, Meu Amor 💘</h1>
+  </header>
+
+  <section id="contador">
+    <h2>Estamos juntos há:</h2>
+    <div id="tempo"></div>
+  </section>
+
+  <section id="cartinha">
+    <h2>Uma cartinha pra você 💌</h2>
+    <p>
+        Declaro que nunca pensei que me sentiria tão apaixonada por alguém, até conhecer você, Salomel. Desde que você entrou na minha vida, tudo ganhou novas cores, novos sentimentos. Você me ensinou o valor da entrega, do cuidado, e do amor. É como se nossos caminhos estivessem destinados a se cruzar, porque compartilhamos a mesma alma, independentemente do que nossas almas sejam feitas.
+        Reconheço meus erros e peço perdão por tê-lo machucado. Em nenhum momento essa foi minha intenção. As vezes, a dor nos confunde, nos torna distantes do que cada palavra, cada silêncio meu, carregava a peso do amor que sinto por você. Você me ajudou a mudar e encontrar o amor, aquele amor que ensina, que cura.
+        E hoje, mais do que nunca, meu coração pertence a você. 💖
+    </p>
+  </section>
+
+  <section id="fotos">
+    <h2>Nossas Fotos 📸</h2>
+    <div class="galeria">
+        <img src="fotos/imagem1.jpg" alt="Foto 1" onclick="abrirModal(this)">
+        <img src="fotos/imagem2.jpg" alt="Foto 2" onclick="abrirModal(this)">
+        <img src="fotos/imagem3.jpg" alt="Foto 3" onclick="abrirModal(this)">
+        <img src="fotos/imagem4.jpg" alt="Foto 4" onclick="abrirModal(this)">
+        <img src="fotos/imagem5.jpg" alt="Foto 5" onclick="abrirModal(this)">
+        <img src="fotos/imagem6.jpg" alt="Foto 6" onclick="abrirModal(this)">
+        <img src="fotos/imagem7.jpg" alt="Foto 7" onclick="abrirModal(this)">
+        <img src="fotos/imagem8.jpg" alt="Foto 8" onclick="abrirModal(this)">
+        <img src="fotos/imagem9.jpg" alt="Foto 9" onclick="abrirModal(this)">
+        <img src="fotos/imagem10.jpg" alt="Foto 10" onclick="abrirModal(this)">
+      <!-- Adicione mais fotos aqui -->
+    </div>
+  </section>
+
+  <section id="musicas">
+    <h2>Músicas que lembram nós dois 🎶</h2>
+    ainda bem
+    <audio src="musica1.mp3" controls></audio>
+    natanzinho lima
+    <audio src="musica2.mp3" controls></audio>
+    <!-- Adicione mais músicas aqui -->
+  </section>
+
+  <footer>
+    <p>Feito com ❤️ por alguém que te ama muito.</p>
+  </footer>
+
+ <!-- Modal -->
+<div id="modal" class="modal" onclick="fecharModal()">
+    <span class="fechar" onclick="fecharModal()">&times;</span>
+    <img id="imagemModal" src="" alt="Imagem em destaque" />
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
